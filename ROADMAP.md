@@ -1,6 +1,6 @@
-# calchiwo/mask: Roadmap
+# WodiMask: Roadmap
 
-Mask evolves in layers.
+WodiMask evolves in layers.
 
 Each version expands execution capability while preserving a stable decision core.
 
@@ -9,7 +9,7 @@ Everything else grows around it.
 
 ## v0.1.0 - Decision Core (Current)
 
-Mask produces deterministic routing decisions from:
+WodiMask produces deterministic routing decisions from:
 
 Identity + Context + Policy
 
@@ -20,7 +20,7 @@ Capabilities:
 - Pure decision engine
 - Unit-tested logic
 
-At this stage, Mask defines behavior.  
+At this stage, WodiMask defines behavior.
 Execution is external.
 
 ## v0.2.x - Externalized Policy
@@ -37,7 +37,7 @@ Work:
 Impact:
 Behavior becomes configurable without modifying engine logic.
 
-Mask becomes deployable across environments.
+WodiMask becomes deployable across environments.
 
 ## v0.3.x - Local Enforcement Adapter
 
@@ -51,7 +51,7 @@ Work:
 - Rotation trigger interface
 
 Impact:
-Mask begins influencing live network flows.
+WodiMask begins influencing live network flows.
 
 The engine remains pure.  
 Adapters execute.
@@ -70,7 +70,7 @@ Work:
 Impact:
 Traffic behavior becomes profile-driven.
 
-Mask transitions from single persona to identity orchestration.
+WodiMask transitions from single persona to identity orchestration.
 
 ## v0.5.x - Transport Integration
 
@@ -100,13 +100,13 @@ Work:
 - Policy suggestion engine
 
 Impact:
-Mask adapts based on observed network responses.
+WodiMask adapts based on observed network responses.
 
 Behavior becomes strategic, not static.
 
 ## v1.0.0 - Identity-Driven Routing System
 
-Mask at 1.0 delivers:
+WodiMask at 1.0 delivers:
 
 - Deterministic decision core
 - Configurable policies
@@ -115,7 +115,7 @@ Mask at 1.0 delivers:
 - Transport integration
 - Structured observability
 
-At this stage, Mask governs how traffic behaves across environments.
+At this stage, WodiMask governs how traffic behaves across environments.
 
 ## Architectural Guardrails
 
@@ -128,7 +128,7 @@ If any future feature requires merging execution into the engine, the boundary h
 
 ## Long-Term Direction
 
-Mask becomes:
+WodiMask becomes:
 
 - A programmable network behavior layer
 - An identity control system for developers

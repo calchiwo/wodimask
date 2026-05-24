@@ -1,23 +1,23 @@
-# calchiwo/mask
+# WodiMask
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![PyPI Version](https://img.shields.io/pypi/v/wodimask?color=blue)](https://pypi.org/project/wodimask)
 
-Mask is a network identity and policy engine.
+WodiMask is a network identity and policy engine.
 
 It defines how traffic behaves on the network by modeling identity, context, and intent, then producing a deterministic routing decision.
 
 This repository contains the control layer.
 
-## What Mask Does
+## What WodiMask Does
 
-Mask models network behavior before execution.
+WodiMask models network behavior before execution.
 
 Given:
 - a network identity
 - a runtime context
 - a set of policies
 
-Mask produces:
+WodiMask produces:
 - a behavior profile
 - IP rotation intent
 - regional intent
@@ -35,7 +35,7 @@ Network behavior should be programmable.
 Traditional VPNs operate as binary tunnels:
 connect or disconnect.
 
-Mask is built around a single flow:
+WodiMask is built around a single flow:
 
 Identity + Context + Policy → RoutingDecision
 
@@ -123,6 +123,6 @@ This is the foundation layer.
 
 This project is License under Apache 2.0. See [LICENSE](LICENSE) for details
 
-## Authour
+## Author
 
 Caleb Wodi
