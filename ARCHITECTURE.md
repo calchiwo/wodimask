@@ -1,8 +1,8 @@
-# calchiwo/mask - Architecture
+# WodiMask: Architecture
 
 ## 1. System Positioning
 
-calchiwo/mask is a network identity policy engine.
+WodiMask is a network identity policy engine.
 
 It does not move packets.
 It does not encrypt traffic.
@@ -21,7 +21,7 @@ Network behavior should be programmable.
 Traditional VPNs operate as binary tunnels:
 connect or disconnect.
 
-Mask operates as a decision engine:
+WodiMask operates as a decision engine:
 Identity + Context + Policy → RoutingDecision
 
 The engine produces a deterministic output that a lower layer can enforce.
@@ -101,7 +101,7 @@ It is deterministic and testable.
 
 ## 4. Separation of Concerns
 
-Mask intentionally separates:
+WodiMask intentionally separates:
 
 Control Plane:
 - reasoning
@@ -118,7 +118,7 @@ This separation prevents early architectural lock-in.
 
 ## 5. Non-Goals (Phase 1)
 
-Mask does not:
+WodiMask does not:
 - Implement WireGuard
 - Perform packet inspection
 - Rotate IPs
@@ -164,7 +164,7 @@ Execution happens elsewhere.
 
 ## 9. Long-Term Vision
 
-Mask becomes:
+WodiMask becomes:
 
 - An identity control layer
 - A programmable network behavior engine

@@ -1,8 +1,8 @@
 from datetime import datetime
 
-from mask import Identity, Context, Policy, DecisionEngine
-from mask.identity import ExposureLevel, Stability
-from mask.context import RiskProfile
+from wodi_mask import Identity, Context, Policy, DecisionEngine
+from wodi_mask.identity import ExposureLevel, Stability
+from wodi_mask.context import RiskProfile
 
 
 def test_api_testing_rotates_ip():

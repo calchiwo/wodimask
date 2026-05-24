@@ -1,13 +1,13 @@
 from datetime import datetime
 
-from mask import (
+from wodi_mask import (
     Identity,
     Context,
     Policy,
     DecisionEngine,
 )
-from mask.identity import ExposureLevel, Stability
-from mask.context import RiskProfile
+from wodi_mask.identity import ExposureLevel, Stability
+from wodi_mask.context import RiskProfile
 
 
 identity = Identity(
